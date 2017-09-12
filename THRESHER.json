@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "contributors": {
+    },
+    "humans": {
+      "human1": {
+        "firstname": "Bruce",
+        "lastname": "Rule",
+        "ISNI": "New item - 3",
+        "byline": "Bruce Rule"
+      }
+    },
+    "robots": {
+      "jobprofilename": "",
+      "bio": "",
+      "New item - 3": "",
+      "New item - 2": ""
+    },
+    "current_scope_degree": 0,
+    "purpose": "The purpose of the THRESHER bot is to produce, distribute, complement, enhance, and publicize Bruce Rule's WHY THE USS THRESHER WAS LOST.",
+    "scopes": {
+      "New item - 5": "Submarines",
+      "scope_0": "The book WHY THRESHER WAS LOST.",
+      "New item - 3": "The THRESHER disaster.",
+      "New item - 2": "Submarine disasters",
+      "learner": {
+        "intent_cues": [
+          {
+            "seeds": "seed1; seed2; seed3",
+            "book_description": "This is the description for this book."
+          }
+        ],
+        "search queries": [
+          "SSN Thresher",
+          "submarine thresher",
+          "SUBSAFE"
+        ]
+      }
+    }
+  },
+  "sharer": {
+    "social networks": [
+      "Reddit",
+      "Twitter"
+    ]
+  },
+  "creator": {
+    "coverspecs": {
+      "print_cover_specs": {
+        "pagecount": 120,
+        "spinewidth": 0,
+        "height": 0,
+        "width": 0
+      },
+      "digital_cover_specs": {
+        "coverfont": "",
+        "covercolor": ""
+      }
+    },
+    "Scripts": {
+      "create-catalog-entry": "",
+      "builder": ""
+    },
+    "formats_in_use": {
+      "html": false,
+      "print": true,
+      "digital": true,
+      "audio": false,
+      "interactive": {
+        "voice": false,
+        "chat": false
+      }
+    }
+  }
+}
