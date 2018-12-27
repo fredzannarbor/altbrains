@@ -16,10 +16,8 @@
       }
     },
     "robots": {
-      "jobprofilename": "",
-      "bio": "",
-      "New item - 3": "",
-      "New item - 2": ""
+      "jobprofilename": "ColorBot",
+      "bio": "ColorBot follows everything to do with colors, especially in design."
     },
     "responsibilities": {
       "learner": "Refine content based on user & content activity.",
@@ -51,7 +49,10 @@
   "sharer": {
     "social networks": [
       "Reddit",
-      "Twitter"
+      {
+        "New item - 2": "@every_pantone_color",
+        "New item - 3": "@pantone"
+      }
     ]
   },
   "creator": {
