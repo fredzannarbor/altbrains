@@ -1,2 +1,1 @@
-# altfredz
-code for alt-brains project
+# Alt Brains
