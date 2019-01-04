@@ -35,14 +35,20 @@ twitter = Twitter(language=lang)
 
 print(input_file)
 
-file1 = open(input_file, 'r').read().splitlines()
-file2 = open(output_file, 'w')
-for line in file1:
-    print('search phrase is ' + line)
-    for tweet in twitter.search(line, cached=False):
-        print(plaintext(tweet.text))
-        file2.write('\n')
-        file2.write('\n')
-        file2.write('# ' )
-        file2.write(plaintext(tweet.text))
-file2.close()
+def readable_tweets():
+    file1 = open(input_file, 'r').read().splitlines()
+    file2 = open(output_file, 'w')
+    for line in file1:
+        print('search phrase is ' + line)
+        for tweet in twitter.search(line, cached=False):
+            #print(plaintext(tweet.text))
+            print('@' + tweet.author, tweet.txt, tweet.shares)
+            print('\n' + '---')
+            file2.write('\n')
+            file2.write('\n')
+            file2.write('# ' )
+            file2.write(plaintext(tweet.text))
+    file2.close()
+    return
+
+print(readable_tweets())
